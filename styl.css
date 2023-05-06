@@ -1,0 +1,299 @@
+/*----------------All---------------------------------------------------------*/
+body{
+    background-color: black;
+   font-family: 'Montserrat', sans-serif;
+   -webkit-scrollbar:width(5px);
+   -webkit-scrollbar-thumb:background-color(red);
+}
+a{
+    text-decoration: none;
+    align-content: center;
+color:red;
+display:block;
+text-align: center;
+padding:16px
+}
+a:hover{
+    color:#ff3333;
+}
+button{
+    padding:6px;
+    color:red;
+    background-color: #333333;
+    font-size:1.2em;
+    border: red 0px solid;
+    outline:none;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+button:hover{
+    background-color:black;
+}
+textarea , input{
+    margin:0px 30px 30px 30px;
+    background-color: #333333;
+    color:red;
+    border: 2px solid red;
+    outline:none;
+    resize:none;
+     border-radius: 10px;
+}
+input[type='radio']{
+    transform:scale(2);
+}
+/*-------------------ScrollBar------------------------------------------------*/
+/*------------Chrome----------------------------------------------------------*/
+::-webkit-scrollbar {
+  
+    z-index:-1;
+    width: 8px;
+    border: 1px solid crimson;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 30px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background-color: red;
+    border-radius: 30px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+/*------------IE--------------------------------------------------------------*/
+body{
+    scrollbar-base-color: #C0C0C0;
+  scrollbar-base-color: red;
+  scrollbar-3dlight-color: #C0C0C0;
+  scrollbar-highlight-color: #C0C0C0;
+  scrollbar-track-color: #EBEBEB;
+  scrollbar-arrow-color: black;
+  scrollbar-shadow-color: #C0C0C0;
+  scrollbar-dark-shadow-color: #C0C0C0;
+
+}
+/*---------------------------Top----------------------------------------------*/
+#Top{
+    clear:both;
+    float:none;
+    font-size:1.4em;
+    height:6.5%;
+    width:100%;
+    border-bottom:solid red 2px;
+    background-image:linear-gradient(#333333 50%,#000000 100%);
+    position: fixed;
+    align-content:center;
+    padding:0px;
+    margin:0px;
+    top:0px;
+    left:0px;
+    z-index: 7;
+    box-shadow: 0px 2px 15px crimson;
+    
+     }
+#Top li{
+    display:inline-block;
+}
+
+#Top li a:hover{
+    background-color: black;
+   
+    
+}
+#Top ul{
+    text-align: center;
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+    overflow:hidden;
+    display: none;
+}
+/*--------------------------Rest----------------------------------------------*/
+#Rest{
+    clear:both;
+    float:none;
+    text-align: center;
+    width:100%;
+    padding:0px;
+    margin:0px;
+    top:0px;
+    left:0px;
+    color:red;
+    background-color: black;
+     position:absolute;
+    
+}
+#Rest li{
+    left:0px;
+    border:solid red 2px;
+    border-radius: 15px;
+    background-color: #333333;
+    display:inline-block;
+    margin:50px;
+    padding:12px;
+    box-shadow: 3px 5px 15px crimson;
+    text-align: center;
+}
+#Rest ul{
+    left:0px;
+    text-align: center;
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+    overflow:hidden; 
+}
+#Rest ul img{
+    border:1px crimson solid;
+}
+/*----------Classes-----------------------------------------------------------*/
+.imgzoom{
+    width:45vw;
+}
+.imgzoom:hover{
+    box-shadow: white 1px 1px 10px 1px;
+}
+.imgzoomPhotoshop{
+    width:45vw;
+}
+.imgzoomPhotoshop:hover{
+    box-shadow: white 1px 1px 10px 1px;
+}
+/*-----------------------Zoom-------------------------------------------------*/
+#zoom{
+    left:11%;
+    top:5%;
+    border:solid red 2px;
+    border-radius: 15px;
+    padding:10px;
+    background-color: #333333;
+    z-index:90;
+    display:none;
+    position: fixed;
+    text-align: center;
+    align-content: center;
+}
+#zoom ul{
+     list-style-type: none;
+      padding:0px;
+    margin:0px;
+    top:0px;
+    left:0px;
+}
+#zoom img{
+    border:1px crimson solid;
+    width:75vw;
+}
+#shade{
+    left:0px;
+    top:0px;
+    padding:0px;
+    margin:0px;
+    background-color: black;
+    opacity: 0.8;
+    position: fixed;
+    width:100vw;
+    height:100vh;
+    z-index:89;
+    display: none;
+}
+/*-----------------------------Footer-----------------------------------------*/
+#footer{
+    float:none;
+    clear:both;
+    border-top: solid red 2px;
+    color:red;
+    width:100%;
+    padding:0px;
+    margin:0px;
+    left:0px;
+    text-align: center;
+    background-image:linear-gradient(#000000 1%,#333333 99%);
+    z-index:10;
+    position:static;
+    display:block;
+     box-shadow: 0px 1px 15px crimson;
+}
+#footer img{
+    margin:10px;
+    border:1px crimson solid;
+}
+#MovieSlider{
+    padding:0px;
+    border-radius: 10px;
+    border: solid red 2px;
+    width:60%;
+    text-align: center;
+    left:20%;
+    top:0;
+    display:none;
+    z-index:3;
+    position:absolute;
+    background-color:black;
+}
+#MovieSlider img{
+    margin-top: 6%;
+}
+#Fourties{
+    border: solid red 2px;
+    position:absolute;
+    z-index:3;
+    left:81.5%;
+    top:10%;
+}
+#Single{
+    border: solid red 2px;
+    position:absolute;
+    z-index:3;
+    left:80%;
+    top:10%;
+}
+#lefty{
+    float:left;
+    text-align: left;
+    
+}
+#lefty button{
+    margin-left:30px;
+}
+#olrighty{
+    margin-bottom: 30px;
+    float:right;
+     text-align: left;
+}
+#olrighty button{
+    margin-left:30px;
+}
+#shadecookie{
+    left:0px;
+    top:0px;
+    padding:0px;
+    margin:0px;
+    background-color: black;
+    opacity: 0.99;
+    position: fixed;
+    width:100vw;
+    height:100vh;
+    z-index:89;
+    display: block;   
+}
+#cookiepanel{
+    width:30%;
+    height:150px;
+    text-align: center;
+    left: 35%;
+    top:30%;
+    z-index:100;
+    display:block;
+    position:fixed;
+    background-color: #333333;
+    color:red;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+#logos{
+    background-color: #333333;
+    border-top:red 2px solid;
+    border-bottom: 2px solid red;
+    margin-bottom: 60px;
+    display:block;
+}
